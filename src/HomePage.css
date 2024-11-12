@@ -1,0 +1,81 @@
+/* src/HomePage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.homepage {
+    background-color: #f4f4f4; /* Light gray background color */
+    min-height: 100vh; /* Minimum height to fill the viewport */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    color: #333; /* Dark gray text color */
+    padding: 20px; /* Add some padding around the container */
+    font-family: 'Roboto', sans-serif; /* Stylish font */
+}
+
+.container {
+    max-width: 800px; /* Maximum width for the content */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding inside the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center; /* Center align text within the container */
+    position: relative; /* For positioning */
+    overflow: hidden; /* Ensure any overflow is hidden */
+    z-index: 1; /* Ensure it stays above the glow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+}
+
+.container:hover {
+    box-shadow: 0 0 10px rgba(135, 206, 250, 1), /* Neon sky blue glow */
+                0 0 20px rgba(135, 206, 250, 1), /* Extended glow */
+                0 0 30px rgba(135, 206, 250, 1); /* More extended glow */
+}
+
+.title {
+    font-size: 3rem; /* Large font size for the title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.description {
+    font-size: 1.0rem; /* Font size for the description */
+    margin-bottom: 20px; /* Space below the description */
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex; /* Use flexbox to align images horizontally */
+    justify-content: center; /* Center align images */
+    flex-wrap: wrap; /* Allow wrapping if the screen is too small */
+    margin-top: 20px; /* Space above the gallery */
+}
+
+.image-gallery img {
+    width: 150px; /* Width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between images */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Button Styles */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.get-started-button {
+    padding: 0.8rem 2rem; /* Padding for the button */
+    font-size: 1.2rem; /* Font size for the button */
+    color: #282c34; /* Text color for the button */
+    background-color: #61dafb; /* Background color for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.get-started-button:hover {
+    background-color: #21a1f1; /* Darker background color on hover */
+}

@@ -1,0 +1,45 @@
+/* src/GetStartedPage.css */
+
+.get-started-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    background: url('https://sequoiaseniorsolutions.com/wp-content/uploads/2023/11/loved-one-providing-care-1440x720.jpeg') no-repeat center center fixed; /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire container */
+    text-align: center; /* Center align text */
+    color: white; /* Change text color to white for better contrast */
+    padding: 20px; /* Add some padding around the container */
+}
+
+.get-started-container h1 {
+    color: #fff; /* White color for the header */
+    font-size: 3rem; /* Large font size for the header */
+    margin-bottom: 20px; /* Space below the header */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+}
+
+.get-started-container h2 {
+    color: #fff; /* White color for subtitles */
+    font-size: 1.5rem; /* Subtitle font size */
+    margin-bottom: 10px; /* Space below the subtitle */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for subtitles */
+}
+
+.get-started-button {
+    padding: 12px 24px; /* Increased padding for the button */
+    font-size: 18px; /* Increased font size */
+    color: white; /* White text color */
+    background-color: rgba(40, 167, 69, 0.8); /* Green with slight transparency */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the button */
+}
+
+.get-started-button:hover {
+    background-color: rgba(40, 167, 69, 1); /* Solid green on hover */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
+}

@@ -1,0 +1,40 @@
+/* src/BookingPage.css */
+.booking-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .booking-details {
+    margin: 20px 0;
+  }
+  
+  .booking-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-details p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  .book-now-button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .book-now-button:hover {
+    background-color: #45a049;
+  }
+  
+  .confirmation-message {
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,63 @@
+/* src/CareNeedsPage.css */
+
+.care-needs-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.care-needs-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.care-needs-page p {
+    margin-bottom: 2rem;
+}
+
+.care-needs-page form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.care-needs-page label {
+    margin-bottom: 15px;
+}
+
+.care-needs-page select {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.care-needs-page button {
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.care-needs-page button:hover {
+    background-color: #21a1f1;
+}

@@ -1,0 +1,46 @@
+/* src/CareTakersPage.css */
+
+.caretakers-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.caretakers-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.caretaker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.caretaker-item {
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caretaker-item h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #007bff;
+}
+
+.caretaker-item p {
+    font-size: 1rem;
+    margin: 10px 0 0;
+    color: #555;
+}

@@ -1,0 +1,63 @@
+/* src/CaretakerProfilePage.css */
+
+.caretaker-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caretaker-profile h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-details {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.profile-details p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.profile-details strong {
+    color: #333;
+}
+
+/* Book Now button styling */
+.book-now-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 12px 24px; /* Larger padding */
+    font-size: 1.2rem; /* Bigger font */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 30px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.book-now-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Optional: Add focus styles for accessibility */
+.book-now-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.5);
+}

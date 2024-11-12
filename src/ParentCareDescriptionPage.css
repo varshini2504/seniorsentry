@@ -1,0 +1,47 @@
+/* src/ParentCareDescriptionPage.css */
+
+.parent-care-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .parent-care-description-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .parent-care-description-options {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+  
+  .parent-care-description-options label {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .parent-care-description-submit {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .parent-care-description-submit:hover {
+    background-color: #21a1f1;
+  }
+  
